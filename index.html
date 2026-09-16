@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AIPS engineering portfolio: automation, process intelligence, and connected machines." />
+  <title>Ahd Azzam / Automation Intelligence Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ahd Azzam home"><img class="brand-mark" src="asstes/5796157477077323649.jpg" alt="" /><span>Ahd Azzam</span></a>
+    <span class="availability-pill"><span class="status-pip"></span> Available for work</span>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="resume-link" href="data:text/plain;charset=utf-8,AIPS%20Engineering%20Portfolio%20%E2%80%94%20Resume%20placeholder" download="aips-resume.txt">Resume <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell reveal">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-pip"></span> Engineering systems / 2025—26</div>
+        <h1>Making machines<br /><em>think in sequence.</em></h1>
+        <p class="hero-lede">I design the logic between raw signals and real-world motion: connected, measurable, and built for the factory floor.</p>
+        <div class="type-line"><span class="type-label">currently exploring&nbsp; //</span> <span id="typewriter" aria-live="polite"></span><span class="cursor">_</span></div>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore case studies <span>↘</span></a><a class="button button-ghost" href="#contact">Book a project call <span>↗</span></a></div>
+      </div>
+      <div class="hero-panel" aria-label="System telemetry visualization">
+        <div class="panel-top"><span>PLANT / NODE_04</span><span class="live"><span class="status-pip"></span> LIVE</span></div>
+        <div class="telemetry"><span class="telemetry-label">PROCESS THROUGHPUT</span><strong>98.4<small>%</small></strong><span class="trend">↗ 4.2% / 24H</span></div>
+        <div class="chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><div class="chart-line"></div></div>
+        <div class="panel-stats"><span>PRESSURE <b>4.82 bar</b></span><span>TEMP <b>68.4 °C</b></span><span>RUN TIME <b>142:18:06</b></span></div>
+        <div class="signal-line"><span>PLC_SIGNAL</span><div><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div></div>
+      </div>
+    </section>
+
+    <section class="intro-strip reveal"><span>01 / PROFILE</span><p>Automation &amp; Process / Machine Information Systems</p><span>BASED IN EUROPE <i class="crosshair">+</i></span></section>
+
+    <section class="section-shell split-section" id="about">
+      <div class="section-label reveal"><span>01</span><span>ABOUT / APPROACH</span></div>
+      <div class="about-content reveal"><h2>From sensor<br /><span>to decision.</span></h2><div class="about-text"><p>I’m an AIPS student fascinated by the invisible choreography of smart manufacturing: the PLC cycle, the sensor pulse, the dashboard that turns a thousand data points into one confident decision.</p><p>My work sits between electrical engineering and software development, where robust control meets useful information. I’m building toward factories that are more adaptive, transparent, and human-aware.</p><a class="text-link" href="#contact">Let’s build something intelligent <span>→</span></a></div></div>
+    </section>
+
+    <section class="section-shell value-section reveal">
+      <div class="section-label"><span>01</span><span>VALUE / WHY WORK WITH ME</span></div>
+      <div class="value-grid">
+        <div class="value-copy">
+          <p class="value-kicker">I turn industrial complexity into operational clarity.</p>
+          <h2>Engineering systems that make better decisions easier.</h2>
+        </div>
+        <div class="value-points">
+          <article>
+            <strong>01</strong>
+            <div>
+              <h3>Connected insight</h3>
+              <p>From machines and signals to dashboards that surface the signal that matters most.</p>
+            </div>
+          </article>
+          <article>
+            <strong>02</strong>
+            <div>
+              <h3>Human-centred automation</h3>
+              <p>Designed to support operators, reduce downtime, and make performance visible.</p>
+            </div>
+          </article>
+          <article>
+            <strong>03</strong>
+            <div>
+              <h3>Industrial thinking</h3>
+              <p>Control logic, sensing, and software are developed as one system, not separate layers.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell skills-section" id="skills">
+      <div class="section-label reveal"><span>02</span><span>TOOLKIT / HARDWARE + CODE</span></div>
+      <div class="skills-grid reveal">
+        <article class="skill-card"><div class="card-icon">⌁</div><h3>Industrial<br />&amp; control</h3><ul><li>MATLAB / Simulink</li><li>Siemens TIA Portal</li><li>SCADA / HMI systems</li></ul><span class="card-index">A / 03</span></article>
+        <article class="skill-card skill-card-active"><div class="card-icon">{ }</div><h3>Programming<br />&amp; software</h3><ul><li>Python / C / C++</li><li>Git / GitHub</li><li>Data acquisition</li></ul><span class="card-index">B / 03</span></article>
+        <article class="skill-card"><div class="card-icon">◉</div><h3>Embedded<br />&amp; hardware</h3><ul><li>Arduino / ESP32</li><li>Sensors &amp; actuators</li><li>MQTT / IIoT</li></ul><span class="card-index">C / 03</span></article>
+      </div>
+    </section>
+
+    <section class="section-shell projects-section" id="projects">
+      <div class="section-label reveal"><span>03</span><span>CASE STUDIES / OUTCOME-DRIVEN SYSTEMS</span><span class="section-meta">07 PROJECTS</span></div>
+      <div class="project-list">
+        <article class="project-card project-feature reveal"><div class="project-visual visual-plant"><div class="visual-header"><span>LINE_07 / SCADA</span><span>● CONNECTED</span></div><div class="plant-layout"><div class="tank"><span>TK-04</span><i></i></div><div class="pipes"><b></b><b></b><b></b></div><div class="motor">M<br /><small>01</small></div><div class="visual-readout">FLOW RATE<br /><strong>124.8</strong> <small>L/MIN</small></div></div></div><div class="project-info"><div><span class="project-number">01</span><h3>Smart process line</h3><p>Closed-loop monitoring and control for a simulated batch process, with fault states surfaced before they become downtime.</p><div class="impact-row"><span>Impact</span><strong>+26% process visibility</strong></div></div><div class="project-footer"><div class="badges"><span>Siemens S7</span><span>SCADA</span><span>Python</span></div><a href="#contact" aria-label="Open Smart process line documentation">↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-sensor"><div class="visual-header"><span>ENV_NODE_03</span><span>MQTT / 2.4GHZ</span></div><div class="sensor-core"><div class="radar"><i></i><i></i><i></i></div><div class="sensor-value">22.6<small>°C</small><span>ROOM TEMP</span></div></div></div><div class="project-info"><div><span class="project-number">02</span><h3>Edge climate node</h3><p>Low-power ESP32 sensing node publishing clean telemetry to a lightweight dashboard.</p><div class="impact-row"><span>Impact</span><strong>24/7 monitoring</strong></div></div><div class="project-footer"><div class="badges"><span>ESP32</span><span>MQTT</span></div><a href="#contact" aria-label="Open Edge climate node documentation">↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-python"><div class="visual-header"><span>DATA / ANALYSIS</span><span>RUN 0842</span></div><div class="code-visual"><span><i>01</i> import pandas as pd</span><span><i>02</i> signal = read_stream()</span><span><i>03</i> detect(signal, <b>threshold</b>=.82)</span><span><i>04</i> <strong>→ anomaly: 0.04%</strong></span></div></div><div class="project-info"><div><span class="project-number">03</span><h3>Signal intelligence</h3><p>Python pipeline for cleaning, visualising, and finding patterns in machine signals.</p><div class="impact-row"><span>Impact</span><strong>3x faster anomaly review</strong></div></div><div class="project-footer"><div class="badges"><span>Python</span><span>MATLAB</span></div><a href="#contact" aria-label="Open Signal intelligence documentation">↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-python"><div class="visual-header"><span>CAD / CATIA</span><span>TECHNICAL DRAWING</span></div><div class="code-visual"><span><i>01</i> PART / SHAFT DESIGN</span><span><i>02</i> 3D MODEL + DETAIL VIEW</span><span><i>03</i> dimensioned documentation</span><span><i>04</i> <strong>→ PDF READY</strong></span></div></div><div class="project-info"><div><span class="project-number">04</span><h3>CATIA shaft design</h3><p>Mechanical part designed and documented in CATIA, with a detailed technical drawing available as a PDF.</p><div class="impact-row"><span>Impact</span><strong>Design-to-doc workflow</strong></div></div><div class="project-footer"><div class="badges"><span>CATIA</span><span>CAD</span></div><a href="projects/VYKRES_HRIADEL_AZZAM.pdf" target="_blank" rel="noreferrer" aria-label="Open CATIA shaft design PDF">↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-python"><div class="visual-header"><span>CAD / CATIA</span><span>TECHNICAL DRAWING</span></div><div class="code-visual"><span><i>01</i> PART / SPRING DESIGN</span><span><i>02</i> 3D MODEL + DETAIL VIEW</span><span><i>03</i> dimensioned documentation</span><span><i>04</i> <strong>→ PDF READY</strong></span></div></div><div class="project-info"><div><span class="project-number">05</span><h3>CATIA spring design</h3><p>Mechanical component designed and documented in CATIA, with a detailed technical drawing available as a PDF.</p><div class="impact-row"><span>Impact</span><strong>Precision spec output</strong></div></div><div class="project-footer"><div class="badges"><span>CATIA</span><span>CAD</span></div><a href="projects/VYKRES_PERO_AZZAM.pdf" target="_blank" rel="noreferrer" aria-label="Open CATIA spring design PDF">↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-python"><div class="visual-header"><span>CAD / CATIA</span><span>TECHNICAL DRAWING</span></div><div class="code-visual"><span><i>01</i> PART / PULLEY DESIGN</span><span><i>02</i> 3D MODEL + DETAIL VIEW</span><span><i>03</i> dimensioned documentation</span><span><i>04</i> <strong>→ PDF READY</strong></span></div></div><div class="project-info"><div><span class="project-number">06</span><h3>CATIA pulley design</h3><p>Mechanical pulley designed and documented in CATIA, with a detailed technical drawing available as a PDF.</p><div class="impact-row"><span>Impact</span><strong>Design validation</strong></div></div><div class="project-footer"><div class="badges"><span>CATIA</span><span>CAD</span></div><a href="projects/VYKRES_REMENICE_AZZAM.pdf" target="_blank" rel="noreferrer" aria-label="Open CATIA pulley design PDF">↗</a></div></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-python"><div class="visual-header"><span>CAD / CATIA</span><span>TECHNICAL DRAWING</span></div><div class="code-visual"><span><i>01</i> ASSEMBLY / COMPONENT</span><span><i>02</i> 3D MODEL + DETAIL VIEW</span><span><i>03</i> revised documentation</span><span><i>04</i> <strong>→ PDF READY</strong></span></div></div><div class="project-info"><div><span class="project-number">07</span><h3>CATIA component study</h3><p>Additional mechanical component study completed in CATIA, with revised technical documentation available as a PDF.</p><div class="impact-row"><span>Impact</span><strong>Build-ready documentation</strong></div></div><div class="project-footer"><div class="badges"><span>CATIA</span><span>CAD</span></div><a href="projects/VYKRES_ZOS_AZZAM_OPRAV_2.pdf" target="_blank" rel="noreferrer" aria-label="Open CATIA component study PDF">↗</a></div></div></article>
+      </div>
+    </section>
+
+    <section class="section-shell education-section reveal"><div class="education-mark">AIPS<span>+</span></div><div><span class="eyebrow">EDUCATION / IN PROGRESS</span><h2>B.Sc. Automation &amp; Process<br />/ Machine Information Engineering</h2></div><div class="education-year">2025—28<br /><span>Expected 2028</span></div></section>
+
+    <section class="contact-section" id="contact"><div class="section-shell contact-inner"><div class="section-label reveal"><span>04</span><span>OPEN CHANNEL / CONTACT</span></div><div class="contact-grid"><div class="contact-copy reveal"><h2>Have a system<br /><em>to improve?</em></h2><p>Tell me what you’re building, measuring, or trying to make more intelligent. I’m open to project work, internships, and technical collaborations.</p><div class="social-links"><a href="mailto:al3hed3zzam@outlook.com">Email <span>↗</span></a><a href="https://www.linkedin.com/in/3hd-3zzam" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a href="https://www.instagram.com/3hed3zzam/" target="_blank" rel="noreferrer">Instagram <span>↗</span></a><a href="https://github.com/AhdAzzam" target="_blank" rel="noreferrer">GitHub <span>↗</span></a></div></div><form class="contact-form reveal" action="https://formsubmit.co/al3hed3zzam@outlook.com" method="POST">
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_subject" value="New portfolio inquiry from website" />
+          <label>Name<input type="text" name="name" placeholder="Your name" required /></label>
+          <label>Email<input type="email" name="email" placeholder="you@company.com" required /></label>
+          <label>Message<textarea name="message" rows="4" placeholder="A brief about your project..." required></textarea></label>
+          <button class="button button-primary" type="submit">Send project inquiry <span>↗</span></button>
+          <p class="form-message" role="status"></p>
+        </form></div></div></section>
+  </main>
+
+  <aside class="sticky-contact" aria-label="Quick contact panel">
+    <span class="sticky-label">Open to work</span>
+    <a href="#contact">Start a conversation</a>
+  </aside>
+
+  <footer class="site-footer"><div class="brand"><img class="brand-mark" src="asstes/5796157477077323649.jpg" alt="" /><span>Ahd Azzam</span></div><span>© 2026 / Designed by Me</span><span class="footer-status"><span class="status-pip"></span> SYSTEM STATUS: OPERATIONAL</span></footer>
+</body>
+</html>
